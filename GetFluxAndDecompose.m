@@ -5,7 +5,7 @@ addpath(genpath(pathToScript));
 wcoord=getWOAcoord(0.25);
 mask=getWOAmask(0.25,'xyt');
 
-dn2opath='dn2o_RF_0825.nc';
+dn2opath='dn2o_RF.nc';
 var.varnames = {'flux' 'A' 'U' 'B' 'AbarUbarNbar' 'AseasUbarNbar' 'AbarUseasNbar' ...
    'AbarUbarNseas' 'AseasUseasNbar' 'AbarUseasNseas' 'AseasUbarNseas' 'AseasUseasNseas'};
 var.dims={'xytp' 'xytp' 'xytp' 'xytp' 'xytp' 'xytp' 'xytp' 'xytp' 'xytp' 'xytp' 'xytp' 'xytp'};

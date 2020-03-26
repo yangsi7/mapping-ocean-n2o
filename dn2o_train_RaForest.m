@@ -23,7 +23,7 @@ var.dims={'xytp'};
 var.snames={'dn2o'};
 var.lnames={'dn2o'};
 var.units={'ppb'};
-outfile='/data/project4/yangsi/Mapping/N2O/NN/scripts/surface/train/RF/production/out/dn2o_RF_0825.nc';
+outfile=[pathToScript,'dn2o_RF.nc';
 CreateNcfile(outfile,var, 'woa18', 'clim','comp',5)
 
 bmsk.peru = repmat(msk.bmsk.peru,1,1,12);
@@ -103,4 +103,4 @@ for v = 1 : 100
 end
 
 % save oob predictions and statistics
-save([pathToScript,'/dn2o_RF_0513.mat'],'dn2oNT','dn2oNTPeru');
+save([pathToScript,'/dn2o_RF.mat'],'dn2oNT','dn2oNTPeru');
