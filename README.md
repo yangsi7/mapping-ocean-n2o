@@ -41,6 +41,7 @@ Machinery to map sparse oceanic N2O data globally and compute its climatological
 If you need more information or help, contact Simon Yang (yangsi@atmos.ucla.edu) or Daniele Bianchi (dbianchi@atmos.ucla.edu)
 
 ## How to cite
+Please cite the PNAS manuscript and this repository [![DOI](https://zenodo.org/badge/250304461.svg)](https://zenodo.org/badge/latestdoi/250304461)
 
 
 ## License
