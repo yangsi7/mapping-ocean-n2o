@@ -23,23 +23,28 @@ Machinery to map sparse oceanic N2O data globally and compute its climatological
 - **CCMP atmospheric reanalysis data**  
    - ~300 Gb - not included in the BCO-BMO upload
    - download from http://www.remss.com/measurements/ccmp/
-- **NOAA's OISST v2 ** 
+- **NOAA's OISST v2** 
    - ~40 Gb - not included in the BCO-BMO upload
    - download from https://www.ncdc.noaa.gov/oisst/data-access
 
-Instructions:
-(1) Run grid_compilation.m 
-   % Grids the raw data onto the WOA grid
+## Instructions:
+- **Run grid_compilation.m** 
+   - Grids the raw data onto the WOA grid
 
-(2) Run dn2o_train_RaForest.m
-   % Trains an ensemble of random Forest on the gridded data, subsequently used to map
-   % dn2o globally
+- **Run dn2o_train_RaForest.m**
+   -Trains an ensemble of random Forest on the gridded data, subsequently used to map dn2o globally
 
-(3) Run GetFluxAndDecompose.m
-   % Computes the flux at 6-hourly resolution using two different formulations for all the
-   % ensemble members retreived in (2). This is extremely computationally and memory heavy.
+- **Run GetFluxAndDecompose.m**
+   - Computes the flux at 6-hourly resolution using two different formulations for all the ensemble members retreived in (2). This is extremely computationally and memory heavy.
 
-   For more information or help, contact;
-   -Simon Yang (yangsi@atmos.ucla.edu) 
-   -Daniele Bianchi (dbianchi@atmos.ucla.edu)
+## Contact
+If you need more information or help, contact Simon Yang (yangsi@atmos.ucla.edu) or Daniele Bianchi (dbianchi@atmos.ucla.edu)
 
+## How to cite
+
+
+## License
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © Simon Yang.
