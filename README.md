@@ -1,4 +1,4 @@
-# MappingDN2OandFlux
+# mapping-ocean-n2o
 Machinery to map sparse oceanic N2O data globally and compute its climatological flux to the atmosphere. Refer to the supplementary information of the manuscript for detailed methods and reference to datasets. For links to required datasets, just scroll down.
 
 
