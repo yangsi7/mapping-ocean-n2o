@@ -5,6 +5,7 @@ Machinery to map sparse oceanic N2O data globally and compute its climatological
 ## Installation and requirements
 ### System requirements:
 - **Matlab 2018 or higher**
+- **Matlab Toolboxes: Machine learning, Statistical, Parallel Computing**
 - **A lot of RAM (20Gb), 20 x pe if running in parallel**
 - **~1 Tb space for storing for populating /Data/ with required datasets**
 ### Required data:
@@ -16,7 +17,7 @@ Machinery to map sparse oceanic N2O data globally and compute its climatological
    - download the processed version we used from the BCO-BMO website
 - **Predictor data**
    - See manuscript for a list of references
-   - download the processed predictor data we used from the BCO-BMO website
+   - download the processed predictor data we used from the BCO-BMO website (mapping-n2o-predictors.mat)
 - **ERA5 atmospheric reanalysis data**
    - ~500 Gb - not included in the BCO-BMO upload
    - download from the Climate Data Store (https://cds.climate.copernicus.eu/cdsapp#!/home)
