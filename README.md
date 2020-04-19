@@ -1,15 +1,31 @@
 # MappingDN2OandFlux
-Machinery to map sparse oceanic n2o data globally and compute its flux to the atmosphere.
+Machinery to map sparse oceanic N2O data globally and compute its climatological flux to the atmosphere. Refer to the supplementary information of the manuscript for detailed methods and reference to datasets. For links to required datasets, just scroll down.
 
-For the below instructions to function, you'll need:
-- Matlab 2018 or higher
-- enough RAM memory
-- time
 
-You'll also need to populate the /Data/ folder. Some of the relevant data is available 
-for download, e.g.  the n2o compilation, from the BCO-BMO website. Other more heavy
-data such as atmospheric reanalysis and 4D WOA fields are publicly available. Refer 
-to the supplementary information of the manuscript for links to these data.
+## Installation and requirements
+### System requirements:
+- **Matlab 2018 or higher**
+- **A lot of RAM (20Gb), 20 x pe if running in parallel**
+- **~1 Tb space for storing for populating /Data/ with required datasets**
+### Required data:
+- **compilation of observed n2o**
+   - download the published compilation from the BCO-BMO website
+   - Add new data to exisiting file or use as template to add your own data
+- **NOAA's N2O flasks data**
+   - Original at https://www.esrl.noaa.gov/gmd/hats/combined/N2O.html
+   - download the processed version we used from the BCO-BMO website
+- **Predictor data**
+   - See manuscript for a list of references
+   - download the processed predictor data we used from the BCO-BMO website
+- **ERA5 atmospheric reanalysis data**
+   - ~500 Gb - not included in the BCO-BMO upload
+   - download from the Climate Data Store (https://cds.climate.copernicus.eu/cdsapp#!/home)
+- **CCMP atmospheric reanalysis data**  
+   - ~300 Gb - not included in the BCO-BMO upload
+   - download from http://www.remss.com/measurements/ccmp/
+- **NOAA's OISST v2 ** 
+   - ~40 Gb - not included in the BCO-BMO upload
+   - download from https://www.ncdc.noaa.gov/oisst/data-access
 
 Instructions:
 (1) Run grid_compilation.m 
